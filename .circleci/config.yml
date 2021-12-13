@@ -24,3 +24,4 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+            echo $MY_NAME_VAR # this env var must be set within the project
